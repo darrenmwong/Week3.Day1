@@ -1,0 +1,6 @@
+<p> 
+	Category: <%= @category["product"] %> </p>
+	<li>Product: <%= @category["product_id"] %> </li>
+
+	<form action="/category/<%= @category["id"] %>/destroy" method="post">
+    <input type="submit" name="" value="Delete this product.">
